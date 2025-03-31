@@ -14,7 +14,6 @@ public class Handicraft {
     }
 
     public void displayDetails(boolean isAvailable){
-
         System.out.println("Available: " + isAvailable);
     }
 

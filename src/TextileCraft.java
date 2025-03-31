@@ -1,12 +1,12 @@
 public class TextileCraft extends Handicraft {
 
     private int threadCount;
+    public int baseTimeInSecondsTC = 3600;
 
     public TextileCraft(String craftName, String craftID, double basePrice, int threadCount) {
         super(craftName, craftID, basePrice);
         this.threadCount = threadCount;
     }
-    public int baseTimeInSecondsTC = 3600;
 
     @Override
     public void displayDetails() {
